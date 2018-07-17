@@ -38,8 +38,14 @@ import ToastAndroidDemo from "./app/ToastAndroidDemo"
 import AlertDemo from "./app/AlertDemo"
 import AppStateDemo from "./app/AppStateDemo"
 import NetInfoDemo from "./app/NetInfoDemo"
+import AsyncStorageDemo from "./app/AsyncStorageDemo"
+import DimensionsDemo from "./app/DimensionsDemo"
+import BackAndroidDemo from "./app/BackAndroidDemo"
+import PixelPatioDemo from "./app/PixelPatioDemo"
+import ModulesDemo from "./app/ModulesDemo"
+import HunheDemo from "./app/HunheDemo"
 
 
 
-app = NetInfoDemo;
+app = HunheDemo;
 AppRegistry.registerComponent('ReactDemo', () => app);
